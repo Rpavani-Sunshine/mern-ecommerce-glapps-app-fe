@@ -1,0 +1,40 @@
+.footerDiv{
+    background-color: #0f0f0f;
+}
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto; /* This pushes the footer to the bottom */
+  }
+.backtotopbtn{
+    background-color:  #060606;
+    border: none;
+    text-decoration: none;
+}
+.footerList li{
+    list-style: none;
+    color: rgb(122, 122, 122);
+}
+.footerImg{
+    height:20px; 
+    width:20px;
+    margin-right:0.3rem;
+    margin-bottom: 0.2rem;
+    border-radius: 50%;
+}
+@media screen and (min-width:1010px) {
+    .footerBlock{
+        padding: 0rem 10rem; 
+    }
+}
+@media screen and (max-width:780px) {
+    .footerline{
+        justify-content: center !important;
+        display: block !important;
+        text-align: center;
+    }
+}
